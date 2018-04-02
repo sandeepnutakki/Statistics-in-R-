@@ -7,4 +7,6 @@ context1<- read.csv('bank.csv', sep=";")
 context1
 summary(context1)
 
+str(context1)
+
 
