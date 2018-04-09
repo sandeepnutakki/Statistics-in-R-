@@ -1,0 +1,41 @@
+---------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\Jason\Desktop\data2\BWGHT_labels.txt
+  log type:  text
+ opened on:  17 Aug 2017, 13:13:20
+
+. use C:\Users\Jason\Desktop\data\BWGHT.DTA, clear
+
+. describe
+
+Contains data from C:\Users\Jason\Desktop\data\BWGHT.DTA
+  obs:         1,388                          
+ vars:            14                          3 Jun 1997 13:47
+ size:        49,968                          
+---------------------------------------------------------------------------------------------------
+              storage   display    value
+variable name   type    format     label      variable label
+---------------------------------------------------------------------------------------------------
+faminc          float   %9.0g                 1988 family income, $1000s
+cigtax          float   %9.0g                 cig. tax in home state, 1988
+cigprice        float   %9.0g                 cig. price in home state, 1988
+bwght           int     %8.0g                 birth weight, ounces
+fatheduc        byte    %8.0g                 father's yrs of educ
+motheduc        byte    %8.0g                 mother's yrs of educ
+parity          byte    %8.0g                 birth order of child
+male            byte    %8.0g                 =1 if male child
+white           byte    %8.0g                 =1 if white
+cigs            byte    %8.0g                 cigs smked per day while preg
+lbwght          float   %9.0g                 log of bwght
+bwghtlbs        float   %9.0g                 birth weight, pounds
+packs           float   %9.0g                 packs smked per day while preg
+lfaminc         float   %9.0g                 log(faminc)
+---------------------------------------------------------------------------------------------------
+Sorted by: 
+
+. log close
+      name:  <unnamed>
+       log:  C:\Users\Jason\Desktop\data2\BWGHT_labels.txt
+  log type:  text
+ closed on:  17 Aug 2017, 13:13:20
+---------------------------------------------------------------------------------------------------

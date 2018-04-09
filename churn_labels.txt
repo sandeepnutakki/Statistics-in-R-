@@ -1,0 +1,23 @@
+Short Description		label
+-------------------------------------
+State					state
+Account Length			length
+Area Code				code
+Phone					phone
+Int'l Plan				intl_plan
+VMail Plan				vm_plan
+VMail Message			vm_mess
+Day Mins				day_mins
+Day Calls				day_calls
+Day Charge				day_charges
+Eve Mins				eve_mins
+Eve Calls				eve_calls
+Eve Charge				eve_charges
+Night Mins				night_mins
+Night Calls				night_calls
+Night Charge			night_charges
+Intl Mins				intl_mins
+Intl Calls				intl_calls
+Intl Charge				intl_charges
+CustServ Calls			cs_calls
+Churn?					churn
